@@ -1,0 +1,89 @@
+:root {
+  font-family: 'Dela Gothic One', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(201, 119, 194);
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 100px;
+}
+
+.logo {
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+.form {
+ display: flex;
+ height: 50px;
+ margin-bottom: 60px;
+}
+
+.input {
+  width: 80%;
+  height: 50px;
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 15px;
+}
+
+.input:focus {
+  outline: none;
+  border: none;
+}
+
+.btn {
+  width: 18%;
+  border-radius: 15px;
+}
+
+.todos {
+ background-color: rgb(228, 184, 253);
+ padding: 20px;
+ border-radius: 15px;
+}
+
+.todo {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo>a {
+  color:black;
+}
+
+.todo:hover {
+ background-color: #eaea;
+}
+
+.error,
+.success {
+  background-color: #eaea;
+  margin: 50px;
+  padding: 50px;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.error {
+ color: rgb(243, 70, 70);
+}
+
+.success {
+  color: rgb(81, 168, 81);
+}
+
+.done {
+  text-decoration: line-through;
+}
